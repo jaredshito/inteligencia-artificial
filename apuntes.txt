@@ -301,6 +301,21 @@ entrenamientos de neuronas:
 				1:si n es max->v(n) = max hijos
 				2:si n es min->v(n)= min hijos
 				3:si estamos en la frontera de exploracion v(n)= f(n)
+
+			ALFA_BETA:
+
+				efecto horizonte:
+					busqueda con proffit iterativa
+
+
+				mejoras:
+					1:ordenamiento de los nodos
+					2:profundizacion iterativa
+					3:Movimiento nulo
+					4:movimiento asesino
+					5:ventana pequeña
+					6:movimiento de ibro
+					
 				
 
 
