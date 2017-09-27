@@ -1,0 +1,315 @@
+//16 de agosto
+
+
+evaluación
+10% Participacion
+35% examen
+55% Proyectos
+
+-AMI (redes nerutonales)
+-AG(algoritmos geneticos)
+-Abu`s(algoritmos de busqueda)
+-dm(data mining)	knime
+-DL(deep learning)	tensorflow
+
+playground.tensorflow.org
+
+//17 de agosto
+
+1943.- se crea la primera forma de inteligencia artificial
+
+.-inteligencia artificial: conjunto de tecnicas que busca emular conocimiento y aprendizaje
+
+la IA se divide en dos categorias : los sistemas simbolicos(1956-1986) y los sistemas subsimbolicos:
+
+los sistemas simbolicos fue al primer IA que nacio en 1943 fue al primer red neuronal artificial.se pense primeramente para resolver problemas ann y or
+
+IA simbolica: se puede obtener comportamiento inteligente utilizando estructuras de alto nivel como la logica, sistemas expertos, esta puede entender el lenguaje humano entre otras cosas.
+
+los IA subsimbolicos se pueden obtener mediante la interaccion de unidades basicas, tienen un enfoque de bajo nivel y se utiliza el conexionismo que practicamente es la tecnica que utiliza una multitud de objetos basicos y mediante su conexion se obtiene un comportamiento inteligente.
+
+(en un principio los sub-sim estaban ganando y se desarrollo e investigo mucho) con el tiempo nacieron los sistemas simbolicos con sistemas expertos
+
+eventos importantes:
+	1943 primeras redes neuronales artificiales
+	1950 test touring
+	1956 conferencia de dorthmouth(se establecen estandares)
+
+tecnica general de resolucion de problemas inteligentes: 	1.- describir con estador 
+															2.- aplicar operadores a los estados  
+															3.-resultado final es dado por la secuencia de operadores dados para llegar al estado final
+
+
+simbolicos:
+
+	.-Sistemas expertos:un sistema de alto nivel que representa un sistema con estructuras de alto nivel , esta hecho por 3 aprtes fundamntales , una base de 			conocimiento,motor de inferencia y una memoria de trabajo
+	ejemplos:
+		jess(java expert sistem shell)
+		LISP (es un lenguaje de programacion)
+	.-Guiones 
+	.-Marcos
+	.-Ontologias
+	.-redes semanticas
+
+sub simbolicos
+	1986-ahora : los investigadores simbolicos se cambian a sub simbolicos
+	ejemplos:
+		.-DB
+		.-ley de murphy
+		.-Mejoras en la programacion
+
+//23 de agosto
+
+cesgo ó bias: pedo adjuntivo que se utiliza para compensar las medias de las entradas y las salidas deseadas
+
+los problemas que se pueden resolver con una red neuronal artificial son dos regresion y clasificacion:
+
+entrenamientos de neuronas:
+	supervisado: vamos a tener un conjunto de datos y un conjunto de respuestas
+	se neesitan 3 conjuntos uno de entrenamiento y uno de validacion con los errores de la red neuronal y un conjunto de test en el cual debe aver  ejemplos que al red neuronal nunca ha visto 
+
+	overfitting o sobreajuste 
+	entrenamientos:
+
+		batch:
+		online:
+		minibathch:
+
+	no supervisado:	
+
+	7/sep
+
+	computacion evolutiva
+
+	*la mutacion consiste en cambiar un gen con una probabilidad muy baja
+
+	*evaluacion se toman los mejores prospectos y se descartan los peores , despues de la primer mutacion estos se remplazan por los hijos o prospectos mejores esperando conseguir mejores resultados
+
+	5 gusanos y cada gusano hecho por celdas mientras mas celdas negras los gusanos tienen mas probabilidades de ser bien vergas y que no los vean los pajaros y se los chinguen 
+	se descartan los pendejitos y se empiezan a cruzar los chingones
+	se reevalua y se practica insesto para crear un gusano nigga
+
+	la computacion evolutiva se divide en dos partes principales :
+
+		Algoritmos geneticos:
+			Son los programas que se centran en utilizar informacion , los programas se construyen con arboles que pueden ser muy anchos muy largos depende de la codificacion , la modificaion y cruce mueve arboles los podan depende de la mutacion y el modelado del programa.
+
+			representacion:
+				se necesitan muchos individuos y cada unos debe ser una solucion posible al problema
+				cada individuo tiene 
+					*genes:bloque base de un genotipo (en los gusanos cada gen era un bloque true o false , blanco o negro) estos genes se pueden representar de cualquier manera , cadnas numeros , booleanos vectores , objetos
+					*genotipo:conjunto de genes de los individios(en los gusanos seria en conjunto de los cinco genes )
+					*fenotipo:es como se ve desde afuera nuestro individuo(se usa apra dividir al individuo de lo que es a l que representa)
+					*funcion de adaptacion: cuan bien nuestro individuo esta resolviendo el problema que le proponemos
+
+				el fin de esto es encontrar al individuo con la funcion de adaptacion mayor
+				Ii(Gi,Fi,FAi)
+
+				fuerzas principales
+				exploracion:es cauzada por la mutacion (el chiste es explorar espacios que no estan en consideracion)
+				explotacion:cruces	
+
+				una alta explotacion y baja exploracion daria como resultado una busqueda muy local de lo contracion se daria una busqueda muy random sin control , ya no seria una busqueda solamente generar un punto al hacer que sea perfecto 
+
+
+		Programacion genetica:da igual no la usaremos , creo
+
+	Tipos de seleccion:
+		seleccion por ruleta: se seleccionan proporcionalmente a su funcion de adaptacion(ver tablita mamalona de la libreta)
+
+		seleccion por ranking:simplemente se toman los individuos , se ordenan, y se le asigna una probabilidad, depende a su posicion
+
+		Muestra estocastica universal:
+		seleccion por torneo:seleccionamos un numero fijo y sacamos los mejores
+		seleccion jerarquica: se usa en problemas como el de la antena , simplemente algunas no funcionan , se corre una evaluaicon y se eliminan las que no funcionan y en la segunda se evaluan ya los chingones
+
+		Muestreo por restos:se toman restos para sacar los mas chingones de las probabilidades que salieron anteriormente 
+
+	Tipos de cruces:el cruce puede ser mono-punto o multi-punto
+
+		simple:solo de hacen los crucen asi bien vale vergas a partir de un punto creado
+
+		probabilidad:se asignan probabilidades y despues se da un numero aleatorio y mediante ese se generan los puntos y cruces, sirve para guiar un poco este pedo
+
+		aritmetico:
+
+		uniforme:se le asigna una probabilidad a los padres de 0 hasta 1 a ambos padres y asi decidimos que tanto genoma sera dle padre uno y del padre 2 , como quien dice nosotros escojemos al mas chingon 
+
+	Tipos de mutacion: tambien puede ser mono-punto o multi-punto
+
+		en la mutacion tomamos un gen al azar y lo mutamos por cualquiera de las dos formas
+
+		simple: tomar un gen al azar y lo mutamos (cambiamos su valor dependiendo del problema)
+
+		mutacion adaptiva por convergencia:
+
+		mutacion por temperatura: fijamos una temp. minima y una maxima que son nuestras probabilidades de mutacion , cada generacion se actualiza la probabilidad de mutacion al tiempo T-1 + la constante , de esta manera se aumenta o se disminuye el ritmo de la mutacion 
+
+		no uniformes:nosotros asignamos probabilidades a los genes y decidimos cuales tienen mas probabilidad de ser mutados y cuales menos , si en el problema tenemos un indivuduo que queremos cuidar o que sea mas estable asi por asi decirlo le damos una probabilidad baja 
+
+		mutaciones sobre alfabetos de alta cardinalidad(mutacion por intercambio): cuando tenemos un conjunt de elementos y no solo podemos quitar uno y ya , tenemos que hacer un swap o utilizar otras tecnicas pero debemos tenerlos en consideracion pq no simplemente podemos borrar un valor y hacer una copia de otro 
+
+//13 de septiembre
+	
+	Algoritmos de remplazo:
+		en el remplazo tenemos una subpoblacion que entrara por los que eliminaremos 
+			remplazo generacional:nosotros creamos x individuos con x poblacion
+			estado estacionario:no modificamos todos los individuos , dejamos uno , imaginando una poblacion de 100 elementos , que individuos podemos remplazar? los menos aptos,y los remplazamos con los individuos obtenidos de la seleccion ; el remplazo de los padres
+			si es aleatorio ps es aleatorio , a la chingada como bambi
+			otro metodo es por individuos similares , tomamos el individuo A y buscamos en la poblacion uno similar y lo descartamos de la poblacion y insertamos al individuo A(esto se puede hacer por adaptacion similar o un genoma similar).
+
+	**elitismo:es la caracteristica que nos esta premiando a los individuos mejores de cada generacion,estos sirven para encontrar mas rapidamente nuestro individuo ideal
+
+	**diversidad genetica :representa cuanto los individuos se parceen uno con el otro , o cuanto diferente son una individuo con otro
+	**causas de una diversidad genetica baja , son 3 :
+
+		*la inicializacion: como inicializamos nuestros individuos que valores le damos a nustrsos genomas 
+
+		*el algoritmo de remplazo : al hacer el remplazo podemos llegar a descartar mejores individuos que aun deben desarrollarse un poco mas , quedandonos en una situacion en la que creemos alcanzar el mejor punto dentro del grafo pero estariamos dejando al azar pq no seguiriamos viendo las otras regiones del grafo
+
+		*presion selectiva alta: digamos que agarramos los 5 mejores indviduos de 100 , estos generaran los siguientes 95 hijos , los hijos tendran las mismas caracteristicas de los padres lo cual nos dara una diversidad genetica baja
+
+		****una vez que se llega a una diversidad genetica baja ya valio verga , ya no hay vuelta atras
+
+		**soluciones:
+			*cuidar estos 3 aspectos
+			*reinicializamos toda la poblacion e iniciamos desde cero
+			*un archivo de la poblacion
+
+	**Evaluacion:
+		fitness puro: r(i,t)= E|t(i,3)-o(i,j)|   r fitness , i es el individuo y t es el tiempo (target - output)(libreta 1)
+		fitness estandarizado (ver en la libreta 1.1)
+		firness ajustado (1.2)
+		fitness normalizado(1.3)
+
+	1.-representable
+	2.-espacio de busqueda razonable
+
+	caracteristicas generales para dibujar los algoritmos chingones
+
+		cruce:
+			1.-el genoma resultante debe tener caracteristicas de ambos padres
+			2.-tenemos que producir individuos validos
+			3.-la probabilidad de cruce debe ser muy alta
+
+		Mutacion:
+			1.-La mutacion tiene que poder alcanzar todo el espacio de busqueda
+			2.-tenemos que producir individuos validos
+			3.-la probabilidad tiene que ser muy baja
+			4.-La mutacion tiene que ser controlada
+
+		algoritmos de remplazo:
+			1.-tener cuidado con la diversidad genetica
+
+
+	**genotipos de valores reales:
+			.son genotipos cuyos genes son de valores reales
+			tiene 2 tipos de cruce que se pueden aplicar:
+				1.-cruce uniforme: es del cruce normalon se crea un puto y a partir de ese se hace el cruce
+				2.-cruce aritmetico: crea nuevos genomas segun una funcion hacia los genes de los padres.(funcion para el 90% de los problemas de cruce aritmetico 2.0)
+	**genotipos con valores oirdenados:
+			mutacion x intercambio:
+			pmx(partially match crossover):en este nosotros estamos agarrando valores de ambos padres , seleccionamos un punto de mutacion , se hace la mutacion , recorremos el hijo y si hay una repeticion de un genoma lo cambiamos por el siguiente dentro del padre , y asi hasta que este ordenado y valido
+
+	ejercicio:
+	tenemos 10 cartas desde el 1 hasta el 10 , tenemos que dividirlo en 2 filas de manera que la suma d els cartas de la fila 1 nos de un numero lo mas cercano al 16 y la multiplicacion de las cartas de la fila 2 nos de uno cercano a 360
+
+
+//14-septiembre
+	** Manejo de restricciones
+			Metodos abortivos:
+			Metodos anticonceptivos:evitamos que estos individuos invalidos nazcan 
+			Metodos reparativos: modificamos el genoma para hacer que pase de no valido a valido
+			Funcion de penalizacion: nos da un valor que depende de que tan malo es el individuo
+
+	**algoritmos de migracion
+
+		**centralizado /en granja
+
+		**islas /distribuido:
+
+		**Modelo de grano fino o celular:
+
+	**optimizcion multiobjetivo:
+		
+		-combinacon de objetivo:
+			f(X)= sumatoria Fi(X)*W  (w=peso )
+
+		-asignacion de prioridades:
+
+		-optimo de edgeworth-pareto o optimo de pareto
+			1.-la solucion ma es peor que ninguna otra por cada objetivo
+			2.- la solucion es mejor que todas las demas por las menos en 1 objetivo 
+
+	**division por nichos:
+		Funcion de distancia:d(x,y)=R entran dos individuos y regresa la diatancia 
+		sharing: 
+					   --
+					  |
+				sh(d)=|
+					  |
+					  --
+
+
+//20 de septiembre
+	
+	**sub-simbolicos
+
+
+		estados iniciales: estado desde donde podemos empezar nuestro problema
+		1.- definir estados , todos los posibles estados del problema
+		2.- definir estados iniciales
+		3.-encontrar estados finales
+		4.-aplicar operadores
+
+		estrategias de control de busqueda:
+			*direccion :hacia adelante,hacia atras y bidireccional
+						factor de ramificacion medio
+						dependiendo del problema (induccion / deduccion)
+						necesidad de justificar los pesos
+
+			*info utilizada:
+							sin informacion(ciega)
+							con informcion (heuristica)
+
+			*considerqacion del efecto regla:
+							ventajas:irrevocable , con una consideracion irrevocable podriamos no alcanzar estado final
+
+//21 de septiembre
+		camino optimo pasante por m
+		f(m)=g(ml)+ h(m) m= a camino optimo m->EF
+					  |-->coste del camino optimo m0->m		
+
+		f(m)= g(m)+ h(m)
+
+
+//27 de septiembre 
+
+
+		
+		Busqueda de contrincante:
+			1.-dos jugadores
+			2.-victoria de uno corresponde a la victoria de otro
+			3.-que podemos calcular los estados de victoria , derrota,empate
+			4.-se conocen las posibilidades de movimiento
+			5.-se conocen los mov hechos 
+			6.-se desconoce la estrategia del contrincante
+			7.-no interviene el azar
+
+
+			min-max:
+				1:si n es max->v(n) = max hijos
+				2:si n es min->v(n)= min hijos
+				3:si estamos en la frontera de exploracion v(n)= f(n)
+				
+
+
+		
+
+
+
+
+
+
+			
+

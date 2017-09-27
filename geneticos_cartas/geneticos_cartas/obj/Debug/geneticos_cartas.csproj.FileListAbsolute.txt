@@ -1,0 +1,6 @@
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\bin\Debug\geneticos_cartas.exe.config
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\bin\Debug\geneticos_cartas.exe
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\bin\Debug\geneticos_cartas.pdb
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\obj\Debug\geneticos_cartas.csprojResolveAssemblyReference.cache
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\obj\Debug\geneticos_cartas.exe
+C:\Users\w8\Documents\SharpDevelop Projects\geneticos_cartas\geneticos_cartas\obj\Debug\geneticos_cartas.pdb
